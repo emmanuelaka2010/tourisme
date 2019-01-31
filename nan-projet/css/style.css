@@ -1,0 +1,198 @@
+/* GENERAL */
+
+html{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+body{
+     background: #f3f0ec;
+     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    margin: 0 auto;
+}
+
+/* Header */
+header{
+   height: 120px; 
+}
+.orange{
+    background: orange;
+}
+.vert{
+    background: green;
+}
+.armoirie{
+    float: right;
+}
+.img-armoirie{
+    width: 300px;
+    height: 150Px;
+}
+    
+header nav{
+    
+    margin-top: 50px;
+    float: right;
+    margin-right: 80px;
+    
+}
+header nav ul li{
+    display: inline-block;
+   margin: 0 auto;
+    font-weight: 400;
+    max-width: 1040px;
+
+}
+header nav ul li a{
+    font-size: 20px;
+    text-transform: uppercase;
+    /* text-transform; uppercase pour mettre le text en majuscule */
+    font-weight: bold;
+    margin-left: 20px;
+}
+header nav ul li a:hover{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+/*Accueil*/
+
+/*main-image*/
+#main-carousel{
+    height: 50% !important;
+}
+#center-welcome{
+    padding: 0 10px;
+}
+#welcome h2{
+    text-align: center;
+    margin: 30px 0;
+}
+#welcome ul{
+    margin: 80px O;
+    list-style: none;
+    
+}
+#welcome ul li{
+    height: 136px;
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+}
+#welcome ul li a{
+    text-decoration: none;
+}
+#welcome h4{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#center-welcome{
+    margin: 0 auto;
+}
+#destination-welcome{
+    background-image: url('images/icon-destination.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#heberhement-welcome{
+    background-image: url('images/icon-hebergement.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#contact-welcome{
+    background-image: url('images/icon-contact.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/*hebergement*/
+#ville-reserv{
+    height: 
+}
+#ville{
+    margin-top: 100px;
+}
+#list-ville ul li{
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+}
+#abidjan{
+     background-image: url('images/Abidjan.jpeg');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#yamoussoukro{
+     background-image: url('images/yamoussoukro.jpeg');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#bouake{
+     background-image: url('images/bouake.jpeg');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#assinie{
+    background-image: url('images/assinie.jpeg');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#san-pedro{
+    background-image: url('images/san-pedro.jpeg');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#man{
+    background-image: url('images/man.jpeg');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+/*Contact*/
+
+#contact{
+    background-color: #fff;
+
+}
+#contact .wrapper h3{
+    margin-top: 100px;
+    text-align: center;
+}
+#contact .wrapper .p1{
+    text-align: center;
+}
+#contact .wrapper .p2{
+    margin-top: 100Px;
+}
+.form{
+    display: inline-block;
+    margin-top: 100px;
+}
+.num{
+    float: left;
+}
+.email{
+    float: right;
+}
+
+.button-3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #02b8dd;
+    border-style: none;
+    border-radius: 20px;
+}
+.button-3:hover{
+    color: #fff;
+    background-color: #444;
+}
+
+
